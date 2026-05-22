@@ -1,0 +1,309 @@
+    1  ls -l
+    2  cd /mnt/c/Temp/Zimbra/
+    3  ls -l
+    4  tar zxfv zcs-NETWORK-10.0.0_GA_4518.UBUNTU20_64.20230301065514.tgz 
+    5  cd zcs-NETWORK-10.0.0_GA_4518.UBUNTU20_64.20230301065514/
+    6  cd ..
+    7  mv zcs-NETWORK-10.0.0_GA_4518.UBUNTU20_64.20230301065514 zimbra-10.0
+    8  cd zimbra-10.0/
+    9  ./install.sh 
+   10  sudo ./install.sh
+   11  hostname
+   12  pico /etc/host
+   13  pico /etc/hosts
+   14  sudo pico /etc/hosts
+   15  hostname
+   16  sudo pico /etc/hosts
+   17  hostname
+   18  sudo pico /etc/hosts
+   19  ./install.sh 
+   20  sudo install.sh 
+   21  sudo ./install.sh 
+   22  sudo pico /etc/hosts
+   23  sudo ./install.sh 
+   24  sudo pico /etc/hosts
+   25  sudo ./install.sh 
+   26  apt update && apt upgrade
+   27  sudo apt update && apt upgrade
+   28  sudo apt upgrade
+   29  sudo ./install.sh 
+   30  cd /mnt/c/Develop/zimbra-zimlet-email-templates
+   31  zimlet watch
+   32  zimlet buidl
+   33  zimlet build
+   34  zimlet 
+   35  zimlet package
+   36  zimlet package -n zimbra-ai-generation
+   37  zimlet package -n zimbra-ai-generation -l AiGeneration
+   38  zimlet package -n zimbra-ai-generation -l AiGeneration pkg-version 1.0.1
+   39  zimlet package -n zimbra-ai-generation -l AiGeneration -v 1.0.1
+   40  zimlet package -n zimbra-ai-generation -l AiGeneration -desc NoN -v 1.0.1
+   41  zimlet package -n zimbra-ai-generation -l AiGeneration -desc "NoN" -v 1.0.1
+   42  zimlet package -n "zimbra-ai-generation" -l "AiGeneration" -desc "NoN" -v 1.0.1
+   43  zimlet package -n "zimbra-ai-generation" -l "AiGeneration" -desc "NoN" -v 1.0.1 -d .
+   44  zimlet package -n "zimbra-ai-generation" -l "AiGeneration" -desc "NoN" -v 1.0.1 -d . -b "./build"
+   45  zimlet package -n "zimbra-ai-generation" -l "AiGeneration" -desc "NoN" -v 1.0.1 -d "./" -b "./build"
+   46  zimlet package -n "zimbra-ai-generation" -l "AiGeneration" -desc "NoN" -v 1.0.1 -d . -b ./build
+   47  zimlet package -n "zimbra-ai-generation" -l "AiGeneration" -desc "NoN" -v 1.0.1  -b ./build
+   48  zimlet package -n "zimbra-ai-generation" -l "AiGeneration" -desc "NoN" -v 1.0.1
+   49  zimlet package -n "zimbra-ai-generation" -l "AiGeneration" -desc "NoN" -v 1.0.1 -d ./Ai.zip -b ./build
+   50  zimlet package -n "zimbra-ai-generation" -l "AiGeneration" -desc "NoN" -v 1.0.1 -d "./Ai.zip" -b ./build
+   51  zimlet package -n "zimbra-ai-generation" -l "AiGeneration" -desc "NoN" -v 1.0.1 -d "./Ai.zip" -b "./build"
+   52  zimlet package -n "zimbra-ai-generation" -l "AiGeneration" -desc "NoN" -v 1.0.1 -d "./Ai.zip"
+   53  zimlet package -n "zimbra-ai-generation" -l "AiGeneration" -desc "NoN" -v 1.0.1 -d /Ai.zip
+   54  imlet package -v 0.0.1 --zimbraXVersion ">=0.0.1" -n "ai-zimlet" --desc "A Zimlet about AI" -l "AI Zimlet"
+   55  ximlet package -v 0.0.1 --zimbraXVersion ">=0.0.1" -n "ai-zimlet" --desc "A Zimlet about AI" -l "AI Zimlet"
+   56  zimlet package -v 0.0.1 --zimbraXVersion ">=0.0.1" -n "ai-zimlet" --desc "A Zimlet about AI" -l "AI Zimlet"
+   57  zimlet watch
+   58  cd ..
+   59  cd reply-by-filter/
+   60  ls -l
+   61  ./build.sh 
+   62  cd ..
+   63  rm -rf reply-by-filter/
+   64  sudo rm -rf reply-by-filter/
+   65  git clone https://github.com/Zimbra-Community/reply-by-filter.git
+   66  cd reply-by-filter/
+   67  ./build.sh 
+   68  pico build.sh 
+   69  apt install zip
+   70  sudo apt install zip
+   71  pico build.sh 
+   72  ./build.sh 
+   73  cd ..
+   74  git clone https://github.com/Zimbra-Community/com_zimbra_emailtemplates.git
+   75  ls -l
+   76  cd com_zimbra_emailtemplates/
+   77  ls -l
+   78  cds com_zimbra_emailtemplates/
+   79  cd com_zimbra_emailtemplates/
+   80  ls -l
+   81  cd ..
+   82  ls -l
+   83  code -
+   84  code .
+   85  zimlet package -v 0.0.2 --zimbraXVersion ">=0.0.2" -n "ai-zimlet" --desc "A Zimlet about AI" -l "AI Zimlet"
+   86  ls -l
+   87  cd ..
+   88  ls -l
+   89  cd zimbra-zimlet-email-templates
+   90  zimlet package -v 0.0.2 --zimbraXVersion ">=0.0.2" -n "ai-zimlet" --desc "A Zimlet about AI" -l "AI Zimlet"
+   91  zimlet watch
+   92  zimlet build
+   93  zimlet package -v 0.0.2 --zimbraXVersion ">=0.0.2" -n "ai-zimlet" --desc "A Zimlet about AI" -l "AI Zimlet"
+   94  ext
+   95  docker
+   96  docker ps a-a
+   97  docker ps -a
+   98  cd /
+   99  ls -l
+  100  ps aux
+  101  cd home
+  102  ls 
+  103  cd samuel/
+  104  ls -l
+  105  pwd
+  106  cd ..
+  107  ls -l
+  108  cd ..
+  109  ls -l
+  110  cd Docker/
+  111  ls -l
+  112  cd host/
+  113  ls -
+  114  ls
+  115  ls -l
+  116  pwd
+  117  cd ..
+  118  ls -
+  119  cd ..
+  120  ls -l
+  121  cd root
+  122  ls -l
+  123  cd Develop/
+  124  ls -
+  125  ls
+  126  ls -l
+  127  cd ..
+  128  cd Docker/
+  129  ls -l
+  130  cd host/
+  131  ls -l
+  132  cd ..
+  133  ls -l
+  134  cd mnt/
+  135  ls -l
+  136  cd c
+  137  ls -l
+  138  cd Develop/
+  139  ls -
+  140  ls
+  141  cd Zimbra/
+  142  ls -l
+  143  cd ..
+  144  ls -l
+  145  cd ..
+  146  cd Temp/
+  147  ls -l
+  148  Novafloor/
+  149  ls -l
+  150  cd Novafloor/
+  151  ls -l
+  152  cd Zim
+  153  ls -l
+  154  cd Zimlet/
+  155  ls -
+  156  ls -l
+  157  cd zimbra-zimlet-email-templates/
+  158  ls -l
+  159  npm install
+  160  npm install -g npm@11.5.2
+  161  zimlet watch
+  162  cd ..
+  163  cd Develop/
+  164  ls -l
+  165  cd zimbra-zimlet-email-templates
+  166  ls -
+  167  ls -l
+  168  npm install -g npm@11.5.2
+  169  npm install
+  170  npm install -g npm@11.5.2
+  171  sudo npm install -g npm@11.5.2
+  172  zimlet watch
+  173  zimlet build
+  174  zimlet watch
+  175  ls -l
+  176  zimlet watch
+  177  nslookup mail.tidattbe.com
+  178  javac
+  179  sudo apt install openjdk-11-jdk-headless
+  180  javac
+  181  c d..
+  182  cd ..
+  183  cd Develop/
+  184  s -l
+  185  ls -l
+  186  cd proxy-zimlet/
+  187  dir
+  188  ls -l
+  189  cd tmp/
+  190  ls 
+  191  javac -cp "/opt/zimbra/lib/jars/*"   -d /tmp/ollama-build   /tmp/OllamaProxyExtension.java \
+  192  javac -cp /mnt/c/Develop/proxy-zimlet/tmp/jars/* -d /mnt/c/Develop/proxy-zimlet/tmp/ollama-build /mnt/c/Develop/proxy-zimlet/tmp/*.java
+  193  javac -cp "/mnt/c/Develop/proxy-zimlet/tmp/jars/*" -d /mnt/c/Develop/proxy-zimlet/tmp/ollama-build /mnt/c/Develop/proxy-zimlet/tmp/*.java
+  194  ls -l
+  195  cd ollama-build/
+  196  ls -l
+  197  cd com/
+  198  ls -l
+  199  cd cd ..
+  200  cd ..
+  201  ls l
+  202  ls -l
+  203  jar cf /tmp/ollama-proxy.jar .
+  204  ls -l
+  205  ls -la
+  206  ls -l /tmp/
+  207  mv /tmp/ollama-proxy.jar .
+  208  ls -l
+  209  mv ollama-proxy.jar ../
+  210  cd ..
+  211  ls -l
+  212  mkdir -p /tmp/zimlet-package/lib
+  213  cp ollama-proxy.jar /tmp/zimlet-package/lib/
+  214  cd ..
+  215  ls -l
+  216  cd ollama-proxy-zimlet/
+  217  ls -l
+  218  cd ollama-proxy-zimlet/
+  219  ls -
+  220  lls -l
+  221  ls -l
+  222  cd zimlet/
+  223  ls -
+  224  ls -l
+  225  cp ollama_proxy.xml /tmp/zimlet-package/
+  226  cp /tmp/com_ollama_proxy.js        /tmp/zimlet-package/
+  227  cp com_ollama_proxy.js        /tmp/zimlet-package/
+  228  cd /tmp/zimlet-package
+  229  ls -l
+  230  zip -r /tmp/com_ollama_proxy.zip .
+  231  ls -
+  232  ls -l
+  233  cd ..
+  234  ls -l
+  235  mv com_ollama_proxy.zip /mnt/c/Develop/proxy-zimlet/
+  236  ls 
+  237  lls -
+  238  ls -l
+  239  cd zimlet-package/
+  240  ls -l
+  241  mv ollama_proxy.xml com_ollama_proxy.xml 
+  242  ls -l
+  243  zip -r /tmp/com_ollama_proxy.zip .
+  244  c d..
+  245  mv com_ollama_proxy.zip /mnt/c/Develop/proxy-zimlet/
+  246  cd ..
+  247  mv com_ollama_proxy.zip /mnt/c/Develop/proxy-zimlet/
+  248  cd zimlet-package/
+  249  ls -l
+  250  cd lib/
+  251  ls -
+  252  ls -l
+  253  cd ..
+  254  ls -
+  255  ls -l
+  256  unzip -l /mnt/c/Develop/proxy-zimlet/com_ollama_proxy.zip 
+  257  pwd
+  258  ls -l
+  259  cd lib
+  260  jar tf ollama-proxy.jar
+  261  sudo -u zimbra cp /home/same/compile/ollama-proxy.jar /opt/zimbra/zimlets-deployed/com_ollama_proxy/lib/
+  262  cat > /tmp/manifest-update.txt << 'EOF'
+Zimbra-Extension-Class: com.ollama.proxy.OllamaProxyExtension
+EOF
+
+  263  cd ..
+  264  ls -l
+  265  ls -l lib/
+  266  ls -l
+  267  cp /mnt/c/Develop/proxy-zimlet/tmp/ollama-build/
+  268  cp /mnt/c/Develop/proxy-zimlet/tmp/ollama-proxy.jar .
+  269  ls -
+  270  ls -l
+  271  jar ufm ollama-proxy.jar /tmp/manifest-update.txt
+  272  ls -l
+  273  ls -l lib/
+  274  rm lib/ollama-proxy.jar 
+  275  mv ollama-proxy.jar lib/
+  276  ls -
+  277  ls -l
+  278  cp lib/ollama-proxy.jar /mnt/c/Develop/proxy-zimlet/
+  279  curl
+  280  curl -X POST https://192.168.50.22/service/extension/ollamaProxy/chat -H "Content-Type: application/json" -k -d '{"model":"llama3","prompt":"Säg hej på svenska"}'
+  281  curl -X POST https://192.168.50.22:7071/service/extension/ollamaProxy/chat -H "Content-Type: application/json" -k -d '{"model":"llama3","prompt":"Säg hej på svenska"}'
+  282  curl -X POST http://192.168.50.22:7071/service/extension/ollamaProxy/chat -H "Content-Type: application/json" -k -d '{"model":"llama3","prompt":"Säg hej på svenska"}'
+  283  curl -X POST https://192.168.50.22:8443/service/extension/ollamaProxy/chat -H "Content-Type: application/json" -k -d '{"model":"llama3","prompt":"Säg hej på svenska"}'
+  284  curl -X POST https://192.168.50.22:7110/service/extension/ollamaProxy/chat -H "Content-Type: application/json" -k -d '{"model":"llama3","prompt":"Säg hej på svenska"}'
+  285  curl -X POST https://192.168.50.22:7143/service/extension/ollamaProxy/chat -H "Content-Type: application/json" -k -d '{"model":"llama3","prompt":"Säg hej på svenska"}'
+  286  curl -X POST https://192.168.50.22:8080/service/extension/ollamaProxy/chat -H "Content-Type: application/json" -k -d '{"model":"llama3","prompt":"Säg hej på svenska"}'
+  287  curl -X POST https://192.168.50.22:8443/service/extension/ollamaProxy/chat -H "Content-Type: application/json" -k -d '{"model":"llama3","prompt":"Säg hej på svenska"}'
+  288  curl -X POST http://192.168.50.22:8443/service/extension/ollamaProxy/chat -H "Content-Type: application/json" -k -d '{"model":"llama3","prompt":"Säg hej på svenska"}'
+  289  curl -X POST https://192.168.50.22:8443/service/extension/ollamaProxy/chat -H "Content-Type: application/json" -k -d '{"model":"llama3","prompt":"Säg hej på svenska"}'
+  290  curl -X POST https://192.168.50.22:7072/service/extension/ollamaProxy/chat -H "Content-Type: application/json" -k -d '{"model":"llama3","prompt":"Säg hej på svenska"}'
+  291  curl -X POST https://192.168.50.22:7073/service/extension/ollamaProxy/chat -H "Content-Type: application/json" -k -d '{"model":"llama3","prompt":"Säg hej på svenska"}'
+  292  curl -X POST https://192.168.50.22:7171/service/extension/ollamaProxy/chat -H "Content-Type: application/json" -k -d '{"model":"llama3","prompt":"Säg hej på svenska"}'
+  293  curl -X POST https://192.168.50.22:7174/service/extension/ollamaProxy/chat -H "Content-Type: application/json" -k -d '{"model":"llama3","prompt":"Säg hej på svenska"}'
+  294  curl -X POST https://192.168.50.22:7074/service/extension/ollamaProxy/chat -H "Content-Type: application/json" -k -d '{"model":"llama3","prompt":"Säg hej på svenska"}'
+  295  curl -X POST https://192.168.50.22:8443/service/extension/ollamaProxy/chat -H "Content-Type: application/json" -k -d '{"model":"llama3","prompt":"Säg hej på svenska"}'
+  296  ls l
+  297  ls -l
+  298  ls -l lib
+  299  cd  /mnt/c/Develop/proxy-zimlet/
+  300  ls -
+  301  ls -l
+  302  cd tm
+  303  cd tmp/
+  304  ls -l
+  305  history
+  306  history > history.txt

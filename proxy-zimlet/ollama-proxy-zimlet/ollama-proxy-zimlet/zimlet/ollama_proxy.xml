@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zimlet name="com_ollama_proxy" version="1.0.0" description="Ollama AI Proxy" zimbraXZimletCompatibleWith="10.0.0">
+    <zimletContext referencePoint="appCtxt" presence="mandatory"/>
+    <serverExtension hasKeyword="ollamaProxy" extensionClass="com.ollama.proxy.OllamaProxyExtension"/>
+</zimlet>

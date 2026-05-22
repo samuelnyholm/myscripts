@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Created-By: 11.0.27 (Ubuntu)
+Zimbra-Extension-Class: com.ollama.proxy.OllamaProxyExtension
+
